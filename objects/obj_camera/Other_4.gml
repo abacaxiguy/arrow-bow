@@ -5,15 +5,15 @@ cameraX = 0
 cameraY = 0
 target = obj_player
 
-cameraWidth = 1024
-cameraHeight = 678
+cameraWidth = 1600
+cameraHeight = 900
 
 view_enabled = true
 view_visible[0] = true
 
 camera_set_view_size(view_camera[0], cameraWidth, cameraHeight)
 
-displayScale = 1
+displayScale = 0.6
 displayWidth = cameraWidth * displayScale
 displayHeight = cameraHeight * displayScale
 
