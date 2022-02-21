@@ -10,3 +10,14 @@ right = keyboard_check(ord("D"))
 
 y += (down-up)*speeed
 x += (right-left)*speeed
+
+if up || down || left || right {
+	image_speed = 1	
+} else {
+	image_speed = 0	
+}
+
+if obj_bow.image_angle >= 86 && obj_bow.image_angle <= 270{
+	image_xscale = -1
+} else image_xscale = 1
+	

@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_bow","path":"sprites/spr_bow/spr_bow.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

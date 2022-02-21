@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 1
 
-
-c++
-
-if c >= 40 image_index = 2
-else image_index = 1
+if image_index == 2 {
+	image_index = 2
+	image_speed = 0
+}
