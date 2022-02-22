@@ -3,4 +3,4 @@
 
 active = false
 
-bar = 65
+bar = 0
