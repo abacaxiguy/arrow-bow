@@ -20,4 +20,6 @@ displayHeight = global.cameraHeight * displayScale
 window_set_size(displayWidth, displayHeight)
 surface_resize(application_surface, displayWidth, displayHeight)
 
+display_set_gui_size(global.cameraWidth, global.cameraHeight)
+
 alarm[0] = 1

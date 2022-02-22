@@ -20,4 +20,15 @@ if up || down || left || right {
 if obj_bow.image_angle >= 86 && obj_bow.image_angle <= 270{
 	image_xscale = -1
 } else image_xscale = 1
-	
+
+show_debug_message(image_alpha)
+
+if invincible{
+	if fade_animation {
+		if image_alpha > 0 image_alpha -= 0.05
+		if image_alpha <= 0 fade_animation = false
+	} else {
+		if image_alpha < 1 image_alpha += 0.05
+		if image_alpha >= 1 fade_animation = true
+	}
+}
