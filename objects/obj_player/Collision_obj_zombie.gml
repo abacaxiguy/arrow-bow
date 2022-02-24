@@ -3,7 +3,7 @@
 
 if invincible exit
 
-instance_destroy(other)
+instance_destroy(other, false)
 
 health--
 

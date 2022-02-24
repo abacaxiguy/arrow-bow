@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-active = false
+instance_destroy(other)
 
-bar = 0
-bar_spd = 60

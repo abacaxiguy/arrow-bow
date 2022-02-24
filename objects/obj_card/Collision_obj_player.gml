@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-active = false
+if global.atk_spd_lvl < 15{
+	inc_atk_spd()
+	global.atk_spd_lvl++
+}
 
-bar = 0
-bar_spd = 60
+instance_destroy()
