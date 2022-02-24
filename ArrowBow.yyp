@@ -14,7 +14,7 @@
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":1,},
     {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},"order":5,},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"order":0,},
-    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"order":6,},
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"order":3,},
     {"id":{"name":"inc_atk_spd","path":"scripts/inc_atk_spd/inc_atk_spd.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":3,},
