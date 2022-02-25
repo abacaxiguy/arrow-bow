@@ -11,6 +11,9 @@ right = keyboard_check(ord("D"))
 y += (down-up)*speeed
 x += (right-left)*speeed
 
+x = clamp(x, 60, 1951)
+y = clamp(y, 60, 1932)
+
 if up || down || left || right {
 	image_speed = 1	
 } else {

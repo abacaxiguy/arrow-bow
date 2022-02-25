@@ -6,5 +6,6 @@ event_inherited();
 
 speed = 4.5
 val = 40
-chance = irandom_range(0, 10)
+drop_chance = irandom_range(0, 6)
+card_chance = irandom_range(0, 12)
 image_blend = make_color_rgb(177, 0, 0)
