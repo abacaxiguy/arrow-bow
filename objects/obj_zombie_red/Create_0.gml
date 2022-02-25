@@ -4,5 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-chance = irandom_range(0, 5)
-image_blend = make_color_rgb(25, 123, 48)
+speed = 4.5
+val = 40
+chance = irandom_range(0, 10)
+image_blend = make_color_rgb(177, 0, 0)

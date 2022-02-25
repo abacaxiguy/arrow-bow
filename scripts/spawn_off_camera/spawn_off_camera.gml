@@ -4,7 +4,8 @@
 ///@description spawn_off_camera
 ///@arg obj
 ///@arg number
-function spawn_off_camera(obj, number){
+///@arg shrink
+function spawn_off_camera(obj, number, shrink=0){
 	var xx, yy
 	var pad = 64
 	
@@ -19,6 +20,8 @@ function spawn_off_camera(obj, number){
 			yy = random_range(0, room_height)
 		}
 	
-		instance_create_layer(xx,yy,"Instances", obj)
+		var obj_made = instance_create_layer(xx,yy,"Instances", obj)
+		obj_made.image_xscale = image_xscale - shrink
+		obj_made.image_yscale = image_yscale - shrink
 	}
 }
