@@ -3,4 +3,4 @@
 
 instance_destroy()
 instance_destroy(other)
-score+=10
+score+=other.val
