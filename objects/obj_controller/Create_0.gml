@@ -6,8 +6,11 @@ alarm[0] = 10
 health = 3
 score = 0
 
-global.atk_spd_lvl = 1
-global.arrow_spd_lvl = 1
+global.atk_spd_lvl = 0
+global.arrow_spd_lvl = 0
+
+global.first_up = undefined
+global.second_up = undefined
 
 enum upgrades_perm {
 	atk_spd,
