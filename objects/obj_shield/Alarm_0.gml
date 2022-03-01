@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_angle+=2
+obj_player.shield_on = false
+
+instance_destroy()

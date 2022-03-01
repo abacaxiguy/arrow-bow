@@ -5,6 +5,8 @@ if invincible exit
 
 instance_destroy(other, false)
 
+if shield_on exit
+
 health--
 
 invincible = true

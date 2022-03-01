@@ -5,7 +5,7 @@ switch upgrade {
 	case upgrades_temp.shield:
 		var shield = instance_create_layer(obj_player.x, obj_player.y, layer, obj_shield)
 		shield.target = obj_player.id
-		shield.alarm[0] = 120
+		shield.alarm[0] = room_speed * 8
 		break
 		
 	case upgrades_temp.two_arrows:
