@@ -13,6 +13,11 @@ if !is_undefined(global.first_up) {
 }
 
 if !is_undefined(global.second_up) {
-	draw_sprite_ext(global.second_up[1], 0, global.cameraWidth/1.4, global.cameraHeight/1.2, 1, 1, 45, c_white, 1)
-	draw_text_transformed(global.cameraWidth/1.4 - 10, global.cameraHeight/1.2 + 20, string(global.second_up[0]), 0.5, 0.5, 0)
+	draw_sprite_ext(global.second_up[1], 0, global.cameraWidth/1.4 - 100, global.cameraHeight/1.2, 1, 1, 45, c_white, 1)
+	draw_text_transformed(global.cameraWidth/1.4 - 100, global.cameraHeight/1.2 + 20, string(global.second_up[0]), 0.5, 0.5, 0)
+}
+
+if !is_undefined(global.third_up) {
+	draw_sprite_ext(global.third_up[1], 0, global.cameraWidth/1.4 - 200, global.cameraHeight/1.2, 1, 1, 45, c_white, 1)
+	draw_text_transformed(global.cameraWidth/1.4 - 200, global.cameraHeight/1.2 + 20, string(global.third_up[0]), 0.5, 0.5, 0)
 }

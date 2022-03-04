@@ -16,3 +16,10 @@ function inc_arrow_spd(){
 		speed++
 	}
 }
+
+///@description increase_speed
+function inc_speed(){
+	with(obj_player) {
+		speeed++
+	}
+}

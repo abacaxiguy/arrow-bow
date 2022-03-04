@@ -8,14 +8,18 @@ score = 0
 
 global.atk_spd_lvl = 0
 global.arrow_spd_lvl = 0
+global.speed_lvl = 0
 
+
+// the arrays of placement where upgrades gon be
 global.first_up = undefined
 global.second_up = undefined
+global.third_up = undefined
 
 enum upgrades_perm {
 	atk_spd,
 	arrow_spd,
-	life,
+	speed,
 }
 
 enum upgrades_temp {
