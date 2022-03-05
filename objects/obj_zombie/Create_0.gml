@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-drop_chance = irandom_range(0,1)
-card_chance = irandom_range(0, 3)
+drop_chance = 0//irandom_range(0,2)
+card_chance = 3//irandom_range(0, 8)
 image_blend = make_color_rgb(25, 123, 48)

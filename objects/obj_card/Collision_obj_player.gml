@@ -6,9 +6,17 @@ switch upgrade {
 		if global.arrow_spd_lvl < 8{
 			inc_arrow_spd()
 			global.arrow_spd_lvl++
-			if is_undefined(global.first_up) global.first_up = [global.arrow_spd_lvl, spr_arrow_speed]
-			else if is_undefined(global.second_up) global.second_up = [global.arrow_spd_lvl, spr_arrow_speed]
-			else global.third_up = [global.arrow_spd_lvl, spr_arrow_speed]
+			
+			if global.first_up[1] = spr_arrow_speed || global.second_up[1] = spr_arrow_speed || global.third_up[1] = spr_arrow_speed{
+				if (global.first_up[1] == spr_arrow_speed) global.first_up = [global.arrow_spd_lvl, spr_arrow_speed]
+				else if (global.second_up[1] == spr_arrow_speed) global.second_up = [global.arrow_spd_lvl, spr_arrow_speed]
+				else global.third_up = [global.arrow_spd_lvl, spr_arrow_speed]
+			}
+			else {
+				if is_undefined(global.first_up) global.first_up = [global.arrow_spd_lvl, spr_arrow_speed]
+				else if is_undefined(global.second_up) global.second_up = [global.arrow_spd_lvl, spr_arrow_speed]
+				else if is_undefined(global.third_up) global.third_up = [global.arrow_spd_lvl, spr_arrow_speed]
+			}
 		} else {
 			score+=30	
 		}
@@ -18,9 +26,18 @@ switch upgrade {
 		if global.atk_spd_lvl < 16{
 			inc_atk_spd()
 			global.atk_spd_lvl++
-			if is_undefined(global.first_up) global.first_up = [global.atk_spd_lvl, spr_arrow]
-			else if is_undefined(global.second_up) global.second_up = [global.atk_spd_lvl, spr_arrow]
-			else global.third_up = [global.atk_spd_lvl, spr_arrow]
+			
+			if global.first_up[1] = spr_arrow || global.second_up[1] = spr_arrow || global.third_up[1] = spr_arrow{
+				if (global.first_up[1] == spr_arrow) global.first_up = [global.atk_spd_lvl, spr_arrow]
+				else if (global.second_up[1] == spr_arrow) global.second_up = [global.atk_spd_lvl, spr_arrow]
+				else global.third_up = [global.atk_spd_lvl, spr_arrow]
+			}
+			else {
+				if is_undefined(global.first_up) global.first_up = [global.atk_spd_lvl, spr_arrow]
+				else if is_undefined(global.second_up) global.second_up = [global.atk_spd_lvl, spr_arrow]
+				else if is_undefined(global.third_up) global.third_up = [global.atk_spd_lvl, spr_arrow]
+			}
+			
 		} else {
 			score+=30	
 		}
@@ -30,9 +47,18 @@ switch upgrade {
 		if global.speed_lvl < 6{
 			inc_speed()
 			global.speed_lvl++
-			if is_undefined(global.first_up) global.first_up = [global.speed_lvl, spr_speed]
-			else if is_undefined(global.second_up) global.second_up = [global.speed_lvl, spr_speed]
-			else global.third_up = [global.speed_lvl, spr_speed]
+			
+			if global.first_up[1] = spr_speed || global.second_up[1] = spr_speed || global.third_up[1] = spr_speed{
+				if (global.first_up[1] == spr_speed) global.first_up = [global.speed_lvl, spr_speed]
+				else if (global.second_up[1] == spr_speed) global.second_up = [global.speed_lvl, spr_speed]
+				else global.third_up = [global.speed_lvl, spr_speed]
+			}
+			else {
+				if is_undefined(global.first_up) global.first_up = [global.speed_lvl, spr_speed]
+				else if is_undefined(global.second_up) global.second_up = [global.speed_lvl, spr_speed]
+				else if is_undefined(global.third_up) global.third_up = [global.speed_lvl, spr_speed]
+			}
+
 		} else {
 			score+=30	
 		}
