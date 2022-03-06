@@ -10,13 +10,6 @@ function inc_atk_spd(){
 	}
 }
 
-///@description increase_arrow_speed
-function inc_arrow_spd(){
-	with(obj_arrow) {
-		speed++
-	}
-}
-
 ///@description increase_speed
 function inc_speed(){
 	with(obj_player) {
